@@ -1,0 +1,31 @@
+<div class="login d-flex justify-content-center align-items-center h-100">
+    <div class="card w-25">
+      <div class="card-body">
+        <h1 class="card-title text-center ">Sign up </h1>
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control custom-input" formControlName="email" required>
+          </div>
+        
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control custom-input" formControlName="password" required>
+          </div>
+        
+          <div class="form-group">
+            <label for="confirmPassword">Confirm password</label>
+            <input type="password" id="confirmPassword" class="form-control custom-input" formControlName="confirmPassword" required>
+            <div *ngIf="registerForm.hasError('passwordMismatch') && (registerForm.dirty || registerForm.touched)">
+              Passwords do not match.
+            </div>
+          </div>
+        
+          <button type="submit" class="btn btn-primary w-100" [disabled]="!registerForm.valid">Register</button>
+          <div class="text-center mt-3">
+            <a class="d-flex justify-content-center" routerLink="/login">¿Already have an account? Login here!</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

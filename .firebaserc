@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rickmorty4-69fca": {
+      "hosting": {
+        "RickMorty4": [
+          "rickmorty4-69fca"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rickmorty4-69fca"
+  }
+}

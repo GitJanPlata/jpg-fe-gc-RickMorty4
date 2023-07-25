@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "RickMorty4",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
