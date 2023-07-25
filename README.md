@@ -1,27 +1,17 @@
-# RickMorty4
+# jpg-fe-gc-RickMorty4
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+### En este proyecto he configurado firebase para realizar la autentificación de los usuarios y en caso de no estar registrados no permitir el acceso a las rutas internas.
 
-## Development server
+## Servicio
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty4/assets/96839905/4f987cbe-a6c7-4d18-90c0-c9669ca1bfff)
 
-## Code scaffolding
+## Componentes de login y register
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![941bcbf551f974e9a7b7c687e6163453](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty4/assets/96839905/db5fae45-6f7c-421f-a93e-ed6f5bd8ab22)
+![605b714a5077e949d672ee7258e0df6f](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty4/assets/96839905/5f7e48e9-d802-4b21-a8c6-aa764bd3a387)
 
-## Build
+## Enrutado y guards configurados 
+![6c9bfdaccbec0b65adbde9a71371cc61](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty4/assets/96839905/9d80c505-b342-46ad-ae2b-01e917e27eef)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty4/assets/96839905/1dc906d0-d028-4bc5-a34f-736d35fc289f)
